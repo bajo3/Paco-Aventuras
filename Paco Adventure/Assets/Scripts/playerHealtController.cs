@@ -29,5 +29,7 @@ public class playerHealtController : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+
+        UiController.instance.UpdatehealthDisplay();
     }
 }
